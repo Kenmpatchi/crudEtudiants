@@ -10,6 +10,8 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 @WebServlet(name = "Etudiant_Servlet", value = "/DS21")
 public class EtudiantServlet extends HttpServlet {
@@ -25,14 +27,14 @@ public class EtudiantServlet extends HttpServlet {
             DbConnect db=new DbConnect();
             db.connect();
             db.insert(e);
-            request.setAttribute("etudiant",e.toString());
+            new affiche(request,response);
         } catch (ClassNotFoundException ex) {
             throw new RuntimeException(ex);
         }
         catch(SQLException exc){
             throw new RuntimeException(exc);
         }
-        request.getRequestDispatcher("affiche.jsp").forward(request,response);
+
     }
 
 }

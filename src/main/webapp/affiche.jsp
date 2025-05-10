@@ -1,4 +1,5 @@
-<%--
+<%@ page import="com.example.demo.connction.DbConnect" %>
+<%@ page import="java.sql.SQLException" %><%--
   Created by IntelliJ IDEA.
   User: hamza bettaibi
   Date: 4/17/2025
@@ -11,7 +12,8 @@
     <title>Title</title>
 </head>
 <body>
-<%= request.getAttribute("etudiant")%></br>
-${etudiant}
+<%=request.getAttribute("etudiants")%>
+<input type="submit" value="setting" onclick="window.location.href='setting.jsp';"><br>
+<a href="index.jsp">add membre</a>
 </body>
 </html>

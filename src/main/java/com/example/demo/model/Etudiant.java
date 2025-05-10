@@ -54,6 +54,6 @@ public class Etudiant {
         this.prenom = prenom;
     }
     public String toString(){
-        return "nom :"+nom+"prenom: "+prenom+" CIN: "+CIN;
+        return "nom :"+nom+" prenom: "+prenom+" CIN: "+CIN;
     }
 }

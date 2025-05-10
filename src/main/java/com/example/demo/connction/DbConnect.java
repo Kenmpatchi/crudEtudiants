@@ -38,6 +38,6 @@ public class DbConnect{
     }
     public void update(Etudiant e)throws SQLException{
         st=conn.createStatement();
-        st.executeUpdate("update etudiant cin='"+e.getCIN()+"'nom='"+e.getNom()+"'prenom='"+e.getPrenom()+"'password='"+e.getPassword()+"'email='"+e.getEmail()+"'where cin='"+e.getCIN()+"'");
+        st.executeUpdate("UPDATE etudiant SET nom='"+e.getNom()+"', prenom='"+e.getPrenom()+"', password='"+e.getPassword()+"', email='"+e.getEmail()+"' WHERE cin='"+e.getCIN()+"';");
     }
 }

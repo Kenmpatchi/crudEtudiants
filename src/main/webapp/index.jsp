@@ -14,7 +14,7 @@
   email:<input type="text"name="email"><br>
   password:<input type="text"name="password"><br>
   CIN:<input type="text"name="CIN"><br>
-  <input type="submit"value="insicription">
+  <input type="submit"value="add">
 </form>
 </body>
 </html>

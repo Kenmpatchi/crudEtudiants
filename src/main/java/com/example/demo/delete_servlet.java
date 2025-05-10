@@ -1,7 +1,6 @@
 package com.example.demo;
 
 import com.example.demo.connction.DbConnect;
-import com.example.demo.model.Etudiant;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -10,24 +9,18 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 import java.sql.SQLException;
-import java.util.List;
-
-@WebServlet(name = "setting_Servlet", value = "/setting")
-public class setting_servlet extends HttpServlet {
+@WebServlet(name = "delete_Servlet", value = "/delete")
+public class delete_servlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse res)throws IOException, ServletException {
         try{
-            String nom=req.getParameter("nom");
-            String prenom=req.getParameter("prenom");
-            int CIN= Integer.parseInt(req.getParameter("cin1"));
-            String email=req.getParameter("email");
-            String password=req.getParameter("password");
-            Etudiant e=new Etudiant(nom,prenom,CIN,email,password);
+            int CIN= Integer.parseInt(req.getParameter("cin2"));
             DbConnect db=new DbConnect();
             db.connect();
-            db.update(e);
+            db.delete(CIN);
             new affiche(req,res);
+
         }
-        catch (ClassNotFoundException|SQLException e){
+        catch (ClassNotFoundException | SQLException e){
             throw new RuntimeException(e);
         }
 

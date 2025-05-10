@@ -10,11 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2020f7a4-35e2-41bc-a3a3-71858252ab26" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/connction/DbConnect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/model/Etudiant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/setting_servlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/affiche.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/affiche.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/delete_servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/setting.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/EtudiantServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/EtudiantServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/connction/DbConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/connction/DbConnect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/model/Etudiant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/model/Etudiant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/setting_servlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/setting_servlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/affiche.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/affiche.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="HTTP Request" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -176,6 +181,12 @@
       <workItem from="1746464845322" duration="4000000" />
       <workItem from="1746564425355" duration="254000" />
       <workItem from="1746647414224" duration="14000" />
+      <workItem from="1746649105647" duration="1582000" />
+      <workItem from="1746659154542" duration="916000" />
+      <workItem from="1746814963299" duration="1480000" />
+      <workItem from="1746829315869" duration="15876000" />
+      <workItem from="1746881296674" duration="8481000" />
+      <workItem from="1746891357694" duration="695000" />
     </task>
     <servers />
   </component>
