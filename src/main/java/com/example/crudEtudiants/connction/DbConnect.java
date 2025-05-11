@@ -1,6 +1,6 @@
-package com.example.demo.connction;
+package com.example.crudEtudiants.connction;
 
-import com.example.demo.model.Etudiant;
+import com.example.crudEtudiants.model.Etudiant;
 
 import java.sql.*;
 import java.util.ArrayList;

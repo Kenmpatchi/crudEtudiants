@@ -1,6 +1,6 @@
-package com.example.demo;
+package com.example.crudEtudiants;
 
-import com.example.demo.connction.DbConnect;
+import com.example.crudEtudiants.connction.DbConnect;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;

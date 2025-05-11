@@ -1,4 +1,4 @@
-<%@ page import="com.example.demo.connction.DbConnect" %>
+<%@ page import="com.example.crudEtudiants.connction.DbConnect" %>
 <%@ page import="java.sql.SQLException" %><%--
   Created by IntelliJ IDEA.
   User: hamza bettaibi

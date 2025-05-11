@@ -1,4 +1,4 @@
-package com.example.demo.model;
+package com.example.crudEtudiants.model;
 
 public class Etudiant {
     private String nom;

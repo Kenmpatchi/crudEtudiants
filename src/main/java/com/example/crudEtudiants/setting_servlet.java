@@ -1,7 +1,7 @@
-package com.example.demo;
+package com.example.crudEtudiants;
 
-import com.example.demo.connction.DbConnect;
-import com.example.demo.model.Etudiant;
+import com.example.crudEtudiants.connction.DbConnect;
+import com.example.crudEtudiants.model.Etudiant;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -10,7 +10,6 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 import java.sql.SQLException;
-import java.util.List;
 
 @WebServlet(name = "setting_Servlet", value = "/setting")
 public class setting_servlet extends HttpServlet {
